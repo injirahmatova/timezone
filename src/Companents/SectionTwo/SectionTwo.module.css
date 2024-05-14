@@ -1,0 +1,120 @@
+*{
+      margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins-Medium";
+}
+.sectionTwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.containerTwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+.containerTwo .text{
+    
+    width: 95%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 40px;
+
+}
+.containerTwo .text h1{
+font-family: "Josefin Sans", sans-serif;
+font-size: 48px;
+font-weight: 700;
+color: black;
+
+}
+.containerTwo .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+    
+}
+.cards h3{
+font-family: "Josefin Sans", sans-serif;
+font-size: 24px;
+color: rgb(68, 68, 68);
+font-weight: 700;
+margin-top: 20px ;
+margin-bottom: 20px;
+}
+.cards span{
+color: red;
+font-family: "Josefin Sans", sans-serif;
+font-size: 18px;
+
+}
+.card .image{
+    position: relative;
+    overflow: hidden;
+}
+.card .image img{
+    transition: transform 0.3s ease; 
+}
+.card .image:hover img{
+    transform: scale(1.1); 
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins-Medium";
+}
+.sectionTwo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.containerTwo{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.containerTwo .card{
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/banner-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    border: 1px solid #E6E6E6;
+    padding: 40px 40px;
+    gap: 10px;
+    transition: .5s;
+}
+
+
+.containerTwo .card h1{
+font-family: 'Poppins-Bold';
+font-size: 28px;
+font-weight: 600;
+}
+.card p{
+font-size: 14px;
+font-weight: 400;
+color: gray;
+font-family: "Poppins-Regular";
+} */

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins-Medium";
+}
+.sectionThree{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.containerThree{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 40px 40px;
+}
+.containerThree .cardsThree{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+     flex-wrap: wrap;
+    width: 90%;
+    text-align: center;
+    
+}
+.cardThree .photoThree{
+    border-bottom: 3px solid red;
+    position: relative;
+}
+.cardThree .photoThree .btn{
+display: none;
+}
+.cardThree .photoThree:hover .btn{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 0px;
+
+}
+.cardThree .photoThree .btn button{
+    width: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 25px 0;
+}
+.cardThree .photoThree .heart{
+    display: none;
+}
+.cardThree .photoThree:hover .heart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+ top: 0px;
+    
+    }
+
+
+.cardThree h3{
+font-family: "Josefin Sans", sans-serif;
+font-size: 24px;
+color: rgb(68, 68, 68);
+font-weight: 700;
+margin-top: 20px ;
+margin-bottom: 20px;
+}
+.cardThree span{
+color:rgb(68, 68, 68);
+font-family: "Josefin Sans", sans-serif;
+font-size: 18px;
+
+}
